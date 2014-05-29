@@ -35,6 +35,8 @@ set(APP_LIBRARIES
 # Build targets
 
 set(PIXELDANCE_SRCS
+  block_image.cc
+  direct_animated_block_image.cc
   pixeldance.cc
   window.cc
 )
